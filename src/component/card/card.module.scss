@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .img {
+    width: 200px;
+    aspect-ratio: 3/4;
+    background: #000;
+    border-radius: 10px;
+  }
+  .descr {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+  .price {
+    font-size: 16px;
+    color: #eeb108;
+    font-weight: 700;
+  }
+  .button {
+    margin-top: 10px;
+    padding: 5px 30px;
+    border: 1px solid #eeb108;
+    max-width: 200px;
+    border-radius: 5px;
+  }
+}
